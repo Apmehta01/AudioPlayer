@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/di_5"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@id/exo_play"
+                style="@style/ExoMediaButton.Play"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+                android:visibility="gone"
+                android:id="@id/exo_pause"
+                style="@style/ExoMediaButton.Pause"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/di_5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/exo_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingLeft="4dp"
+                android:text="00:00"
+                android:paddingRight="4dp"
+                android:textColor="#FFBEBEBE"/>
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+                android:id="@id/exo_progress"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/di_26"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@id/exo_duration"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/font_14"
+                  android:textStyle="bold"
+                  android:paddingLeft="@dimen/di_5"
+                  android:paddingRight="@dimen/di_5"
+                  android:text="00:00"
+                  android:includeFontPadding="false"
+                  android:textColor="#FFBEBEBE"/>
+
+    </LinearLayout>
+
+</LinearLayout>

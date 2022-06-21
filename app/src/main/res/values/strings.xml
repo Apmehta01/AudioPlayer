@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Audio Player</string>
+    <string name="_0_min_0_sec">0 min, 0 sec</string>
+    <string name="lorem_text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "</string>
+    <string name="str_song_name">This is the test song.</string>
+    <string name="str_no_data">Please allow storage permission to load data.</string>
+
+    <string name="missing_permission_warning">Some mandatory permissions are missing please provide.</string>
+    <string name="permission_explanation">You need to give some mandatory permissions to continue.</string>
+    <string name="str_ok">Ok</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    <string name="str_version">Version:</string>
+</resources>
